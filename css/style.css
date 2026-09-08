@@ -38,6 +38,10 @@
     font-size: 18px;
 }
 
+.active {
+    color: #E9BD8C;
+}
+
 /* header end */
 /* hero-muhammadsiddiq */
 
@@ -110,9 +114,11 @@
     align-items: center;
     justify-content: center;
 }
-.fa-arrow-right{
+
+.fa-arrow-right {
     color: #FFFFFF;
 }
+
 .footer-bottom {
     width: 100%;
     height: 90px;
