@@ -44,6 +44,86 @@
 
 /* header end */
 /* hero-muhammadsiddiq */
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  
+  background-image: url(../images/Rectangle\ 12.png); 
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 35px;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn-test {
+  background-color: #c89d66;
+  color: white;
+  text-decoration: none;
+  padding: 12px 28px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.btn-play {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  gap: 8px;
+}
+
+.play-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  padding-left: 2px;
+}
+
+.play-text {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #ccc;
+}
 
 /* hero end */
 /* 3-4-section-kalimullox */
